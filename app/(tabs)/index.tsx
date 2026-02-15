@@ -76,7 +76,7 @@ export default function Home() {
             style={[
               styles.button,
               styles.clearButton,
-              { borderColor: Colors[colorScheme ?? "light"].text + "30" },
+              { borderColor: Colors[colorScheme ?? "light"].buttonBorder },
             ]}
             onPress={handleClear}
           >
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
     flex: 0.45,
   },
   clearButton: {
-    borderWidth: 1,
+    borderWidth: 2,
     backgroundColor: "transparent",
   },
   saveButton: {},

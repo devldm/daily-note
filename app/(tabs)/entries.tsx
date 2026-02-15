@@ -138,7 +138,6 @@ export default function EntriesScreen() {
     return (
       <TouchableOpacity
         onPress={() => {
-          console.log("Tapping entry:", item.id);
           toggleSheet(item);
         }}
         style={[

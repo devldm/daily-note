@@ -11,6 +11,7 @@ export default {
     tabIconDefault: "#c4a76b",
     tabIconSelected: "#b8860b",
     bottomSheet: "#fff8e1",
+    buttonBorder: "#8B4513",
   },
   dark: {
     text: "#fff",
@@ -21,5 +22,6 @@ export default {
     tabIconDefault: "#ccc",
     tabIconSelected: tintColorDark,
     bottomSheet: "#262626",
+    buttonBorder: "#12c2e9",
   },
 };
